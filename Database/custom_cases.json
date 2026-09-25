@@ -6,6 +6,13 @@
       "command": "/wenzyv14 62xxx",
       "loop": 10,
       "sleep": 1500
+    },
+    {
+      "funcName": "m",
+      "displayName": "m",
+      "command": "/m 62xxx",
+      "loop": 200,
+      "sleep": 1500
     }
   ]
 }
