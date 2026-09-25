@@ -1,0 +1,11 @@
+{
+  "LXW BUG FITUR": [
+    {
+      "funcName": "Wenzyv14",
+      "displayName": "Wenzyv14",
+      "command": "/wenzyv14 62xxx",
+      "loop": 10,
+      "sleep": 1500
+    }
+  ]
+}
